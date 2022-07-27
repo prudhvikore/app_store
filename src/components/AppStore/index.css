@@ -1,0 +1,56 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.app-store {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'bree serif';
+  color: #1e293b;
+}
+
+.search-cont {
+  border: 1px solid #1e293b;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 30px;
+  width: 250px;
+}
+
+.icon {
+  height: 22px;
+  margin-right: 10px;
+}
+
+.tabs {
+  display: flex;
+  padding-left: 0;
+}
+
+.apps {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding-left: 0;
+  flex-wrap: wrap;
+}

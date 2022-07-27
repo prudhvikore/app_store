@@ -1,0 +1,28 @@
+.list-item {
+  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  color: #7b8794;
+  padding-bottom: 0px;
+  border-bottom: 3px solid #dfe2e5;
+}
+
+.tab-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: #7b8794;
+  border: none;
+  outline: none;
+  padding-bottom: 8px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.selected-list {
+  border-bottom: 3px solid #2563eb;
+}
+
+.selected-btn {
+  color: #2563eb;
+}
